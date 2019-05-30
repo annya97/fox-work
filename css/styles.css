@@ -1,17 +1,19 @@
 body {
   padding-top: 90px;
   height: 100%;
+  background-color: #f9f9fa;
 }
 
 .img-fluid {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
 }
 
-.navbar {
+.navbar, footer {
   padding: 0;
+  background-color: #0c0c0d;
 }
 
 .nav-item {
@@ -21,49 +23,14 @@ body {
   justify-content: center;
 }
 
-#sakums {
-  width: 80px;
+
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-#ievads {
-  width: 75px;
-}
-
-#vardnica {
-  width: 85px;
-}
-
-#mozilla {
-  width: 130px;
-}
-
-#photon {
-  width: 130px;
-}
-
-#secinajumi {
-  width: 100px;
-}
-
-#avoti {
-  width: 100px;
-}
-
-
-#work-title {
-  text-align: center;
-  margin: auto;
-  width: 60%;
-}
-
-#work-author {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-#work-place-year {
-  text-align: center;
-  margin: auto;
+.text div {
+  width: 80%;
 }
 
 
@@ -77,11 +44,7 @@ body {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-}
-
-table {
-  //width: 100%;
-  //margin: auto;
+  padding: 7px;
 }
 
 
@@ -92,7 +55,7 @@ table {
   position: relative;
 }
 
-.mozilla-tool-wrap {
+.mozilla-tool-wrap, .photon-rule-wrap {
   width: 90%;
   position: absolute;
   top: 50%;
@@ -131,14 +94,55 @@ footer {
 
 
 @media (min-width: 992px) {
-  
+	#sakums {
+	  width: 80px;
+	}
+	#ievads {
+	  width: 75px;
+	}
+	#vardnica {
+	  width: 85px;
+	}
+	#mozilla {
+	  width: 130px;
+	}
+	#photon {
+	  width: 130px;
+	}
+	#secinajumi {
+	  width: 100px;
+	}
+	#avoti {
+	  width: 100px;
+	}
 }
 
 @media (max-width: 991px) {
   .nav-item {
     width: auto;
   }
-  #work-title {
-    width: 80%;
+  .navbar {
+	padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .img-fluid {
+    width: 30%;
+    padding-bottom: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  .navbar {
+	padding-left: 14px;
+  }
+  .navbar-toggler {
+	margin-right: 14px;
+  }
+  .img-fluid {
+    width: 45%;
+  }
+}
+
+
+
+
