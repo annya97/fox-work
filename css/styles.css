@@ -1,5 +1,5 @@
 body {
-  padding-top: 90px;
+  padding-top: 80px;
   height: 100%;
   background-color: #f9f9fa;
 }
@@ -8,7 +8,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  max-width: 80%;
 }
 
 .navbar, footer {
@@ -24,20 +24,27 @@ body {
 }
 
 
+.index {
+  padding-top: 15px;
+}
+
 hr {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
+
 .text div {
   width: 80%;
+  text-align: center;
+  margin: auto;
 }
 
 
 .container-title {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 
@@ -45,6 +52,10 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 7px;
+}
+
+table {
+  box-shadow: 5px 10px 8px 10px #b1b1b3;
 }
 
 
@@ -72,6 +83,7 @@ table, th, td {
 ol li {
   padding-left: 10px;
   padding-bottom: 10px;
+  word-wrap: break-word;
 }
 
 
@@ -140,6 +152,9 @@ footer {
   }
   .img-fluid {
     width: 45%;
+  }
+  .text div {
+    width: 100%;
   }
 }
 
