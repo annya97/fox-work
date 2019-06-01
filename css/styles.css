@@ -1,5 +1,5 @@
 body {
-  padding-top: 80px;
+  padding-top: 64px;
   height: 100%;
   background-color: #f9f9fa;
 }
@@ -11,21 +11,25 @@ body {
   max-width: 80%;
 }
 
-.navbar, footer {
-  padding: 0;
+.navbar {
   background-color: #0c0c0d;
 }
 
 .nav-item {
+  font-size: 15px;
   text-align: center;
   display : flex;
   align-items : center;
   justify-content: center;
 }
 
+#navbarResponsive {
+  background-color: #0c0c0d;
+}
 
-.index {
-  padding-top: 15px;
+
+.index div {
+  font-size: 17px;
 }
 
 hr {
@@ -35,6 +39,7 @@ hr {
 
 
 .text div {
+  font-size: 17px;
   width: 80%;
   text-align: center;
   margin: auto;
@@ -42,7 +47,7 @@ hr {
 
 
 .container-title {
-  font-size: 24px;
+  font-size: 36px;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -62,7 +67,7 @@ table {
 .mozilla-tool, .photon-rule {
   color: white;
   text-align: center;
-  height: 150px;
+  height: 180px;
   position: relative;
 }
 
@@ -77,35 +82,50 @@ table {
 
 .mozilla-tool-name, .photon-rule-name {
   font-weight: bold;
+  font-size: 22px;
+}
+
+.mozilla-tool-text, .photon-rule-text {
+  font-size: 17px;
 }
 
 
 ol li {
-  padding-left: 10px;
-  padding-bottom: 10px;
+  font-size: 17px;
+  padding-left: 8px;
+  padding-bottom: 8px;
   word-wrap: break-word;
 }
 
 
 .page-content {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 footer {
+  font-size: 15px;
   height: 64px;
   display: flex;
   align-items: center;
   margin-top: -64px;
+  padding: 0;
+  background-color: #0c0c0d;
 }
 
 .for-footer {
-  padding: 20px;
+  padding-top: 40px;
   padding-bottom: 64px;
   min-height: 100%;
 }
 
 
 @media (min-width: 992px) {
+	.navbar {
+	  height: 64px;
+	}
+	.navbar-brand {
+      font-size: 22px;
+    }
 	#sakums {
 	  width: 80px;
 	}
@@ -136,6 +156,9 @@ footer {
   .navbar {
 	padding-top: 12px;
     padding-bottom: 12px;
+  }
+  .navbar-brand {
+    font-size: 17px;
   }
   .img-fluid {
     width: 30%;
