@@ -23,6 +23,10 @@ body {
   justify-content: center;
 }
 
+.navbar-nav {
+  margin-top: 12px;
+}
+
 #navbarResponsive {
   background-color: #0c0c0d;
 }
