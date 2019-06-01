@@ -47,13 +47,14 @@ hr {
 
 
 .container-title {
-  font-size: 36px;
+  font-size: 35px;
   text-align: center;
   padding-bottom: 40px;
 }
 
 
 table, th, td {
+  font-size: 17px;
   border: 2px solid #008ea4;
   border-collapse: collapse;
   padding: 7px;
@@ -82,11 +83,11 @@ table {
 
 .mozilla-tool-name, .photon-rule-name {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .mozilla-tool-text, .photon-rule-text {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 
@@ -124,7 +125,7 @@ footer {
 	  height: 64px;
 	}
 	.navbar-brand {
-      font-size: 22px;
+      font-size: 23px;
     }
 	#sakums {
 	  width: 80px;
@@ -158,7 +159,7 @@ footer {
     padding-bottom: 12px;
   }
   .navbar-brand {
-    font-size: 17px;
+    font-size: 20px;
   }
   .navbar-nav {
     margin-top: 12px;
