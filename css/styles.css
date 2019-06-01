@@ -23,10 +23,6 @@ body {
   justify-content: center;
 }
 
-.navbar-nav {
-  margin-top: 12px;
-}
-
 #navbarResponsive {
   background-color: #0c0c0d;
 }
@@ -163,6 +159,9 @@ footer {
   }
   .navbar-brand {
     font-size: 17px;
+  }
+  .navbar-nav {
+    margin-top: 12px;
   }
   .img-fluid {
     width: 30%;
